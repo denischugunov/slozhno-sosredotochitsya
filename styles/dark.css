@@ -17,6 +17,7 @@
   --button-border-hover-state-color: rgb(
     255 0 122 / 0.4
   ); /* цвет границы кнопки при наведении */
+  --decoration-color: #ff0070; /* цвет угловых элементов в хедере и футере */
 }
 
 .page.theme_dark {

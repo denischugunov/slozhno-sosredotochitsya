@@ -17,13 +17,14 @@
   --button-border-hover-state-color: rgb(
     50 49 45 / 0.4
   ); /* цвет границы кнопки при наведении */
+  --decoration-color: #353430; /* цвет угловых элементов в хедере и футере */
 }
 
 .page.theme_light {
   background-image: url(../images/cover-image-light.png);
 }
 
-.decoration-item {
+.theme_light .decoration-item {
   display: none;
 }
 
@@ -41,6 +42,7 @@
     --button-border-hover-state-color: rgb(
       50 49 45 / 0.4
     ); /* цвет границы кнопки при наведении */
+    --decoration-color: #353430; /* цвет угловых элементов в хедере и футере */
   }
 
   .page {
