@@ -394,17 +394,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-block-start: 2.5rem;
   block-size: 100vh;
   min-block-size: 668px;
 }
 
 .footer__title {
-  margin-block-start: 2.5rem;
   text-shadow: 2px 2px 0px var(--accent-color, #ff0070);
 }
 
 @media (min-width: 768px) {
-  .footer__title {
+  .footer {
     margin-block-start: 3.75rem;
   }
 }
