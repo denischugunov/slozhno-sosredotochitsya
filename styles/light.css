@@ -7,7 +7,8 @@
 :root .theme_light {
   --bg-color: #ffc2e6; /* цвет фона */
   --accent-color: #ff8dcb; /* акцентный цвет, например, для фона текста*/
-  --accent-main-title-color: #ffc2e6; /*цвет для главных подзаголовков, <h1> */
+  --accent-main-title-color: #ffc2e6; /*цвет для главных подзаголовков */
+  --accent-main-title-shadow-color-spec: #ff0070; /* особый цвет тени для главных подзаголовков */
   --accent-section-header-color: #353430; /* цвет для подзаголовков секций сайта, <h2>*/
   --accent-title-color: #353430; /* цвет для подзаголовков у идей (айтемов) внутри секций, <h3>*/
   --text-color: #353430; /* цвет основного текста, <p> */
@@ -30,7 +31,8 @@
   :root {
     --bg-color: #ffc2e6; /* цвет фона */
     --accent-color: #ff8dcb; /* акцентный цвет, например, для фона текста*/
-    --accent-main-title-color: #ffc2e6; /*цвет для главных подзаголовков, <h1> */
+    --accent-main-title-color: #ffc2e6; /* цвет для главных подзаголовков */
+    --accent-main-title-shadow-color-spec: #ff0070; /* особый цвет тени для главных подзаголовков */
     --accent-section-header-color: #353430; /* цвет для подзаголовков секций сайта, <h2>*/
     --accent-title-color: #353430; /* цвет для подзаголовков у идей (айтемов) внутри секций, <h3>*/
     --text-color: #353430; /* цвет основного текста, <p> */
