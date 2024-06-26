@@ -199,10 +199,6 @@
 }
 
 @media (min-width: 1024px) {
-  .header__main-title {
-    text-shadow: 4px 4px 0px var(--accent-main-title-shadow-color-spec, #ff0070);
-  }
-
   .header__theme-menu {
     justify-self: center;
     align-self: start;
@@ -251,7 +247,6 @@
 @media (min-width: 768px) {
   .section {
     grid-template-columns: 1fr 65%;
-    margin-block-start: 5rem;
   }
 
   .about.section {
@@ -272,6 +267,10 @@
 }
 
 @media (min-width: 768px) {
+  .causes.section {
+    margin-block-start: 5rem;
+  }
+
   .causes .section__ideas {
     grid-area: 2 / 1 / 3 / 3;
   }
@@ -311,6 +310,10 @@
 }
 
 @media (min-width: 768px) {
+  .advices.section {
+    margin-block-start: 5rem;
+  }
+
   .advices .section__header {
     grid-row: 1 / 3;
   }
